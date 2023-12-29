@@ -1,5 +1,42 @@
 # belen.web
 
-# Hi! My name is Andrea Belen. I'm an undergraduate student in CS. This is my first project on my own. I want to make my own portafolio, which will contain a bit of myself and my future projects that I have in mind. Hope you enjoy it!
+<h3>Home Page Screenshot</h3>
+<p align="center">
+  <img src='pictures/homePage screenshot 12.28.2023.png'/>
+</p>
 
+<h3>Future Screenshots to come...</h3>
 
+## ⌨️ Ensure Node.js and npm are Installed
+
+Verify if 'Node.js' and 'npm' are installed by running these commands in your terminal.
+
+```sh
+'node -v' or 'npm -v'
+```
+
+## 💻 Install Required Packages
+
+This command installs necessary packages into a node_modules folder. Run this command within the directory.
+
+```sh
+'npm install'
+```
+
+## ⚡ Run the Server
+
+Start the server by running
+
+```sh
+node serve.js
+```
+
+## 🧩 Using the 'Localhost' address
+
+Open a web browser and navigate to
+
+```sh
+http://localhost:port
+```
+
+Replace port with the specific port the server is running on, often 3000 or 8080
