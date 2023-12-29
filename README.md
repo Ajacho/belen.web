@@ -28,7 +28,7 @@ This command installs necessary packages into a node_modules folder. Run this co
 Start the server by running
 
 ```sh
-node serve.js
+'node serve.js'
 ```
 
 ## 🧩 Using the 'Localhost' address
@@ -36,7 +36,7 @@ node serve.js
 Open a web browser and navigate to
 
 ```sh
-http://localhost:port
+'http://localhost:port'
 ```
 
 Replace port with the specific port the server is running on, often 3000 or 8080
