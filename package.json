@@ -1,0 +1,22 @@
+{
+  "name": "belen.web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajacho/belen.web.git"
+  },
+  "author": "Andrea Belen Jacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajacho/belen.web/issues"
+  },
+  "homepage": "https://github.com/Ajacho/belen.web#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

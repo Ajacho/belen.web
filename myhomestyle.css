@@ -1,0 +1,48 @@
+html{
+    background-image: url('pictures/salemSky.JPEG');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centered-content {
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#greeting {
+    color:hsl(0, 100%, 99%);    
+}
+
+a:hover{
+    border-bottom: 1px solid;
+    color: #0e0d0d !important;
+    text-shadow: 0px opx 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+a:link{
+    color:hsl(0, 100%, 99%);
+    border-bottom: 1px solid;
+}
+
+p{
+    color:hsl(0, 100%, 99%);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;;
+    background-color: #0c0808bb;
+    color: #fff;
+    text-align: center;
+}

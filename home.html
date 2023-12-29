@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<link rel="stylesheet" href="myhomestyle.css">
+
+<head>
+<title>Home</title>
+</head>
+
+<body>
+<div class="centered-content">
+<h1 id="greeting">
+<script>
+    const currHour = new Date().getHours();
+    const greetingElem = document.getElementById('greeting');
+    if (currHour < 12){
+        greetingElem.textContent = 'Hello, good morning!!';
+    } else {
+        greetingElem.textContent = 'Hello, good afternon!!';
+    }
+</script>
+</h1>
+
+<p> My name is Andrea Belen,<br> 
+    I'm a Computer Science junior at Western Oregon University,<br>
+    and I'm excited to share my very first webpage showcasing all my projects.
+</p>
+
+<h3><a href="mySomething" class="nav-link">***A***</a></h3>
+
+<h3><a href="myHobbies" class="nav-link">HobBies</a></h3>
+
+<h3><a href="myProjects" class="nav-link">ProJects</a></h3>
+</div>
+<footer>© Page by Andrea Belen Jacho</footer>
+</body>
+</html>
