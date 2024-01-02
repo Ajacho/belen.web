@@ -7,7 +7,7 @@
 
 <h3>Future Screenshots to come...</h3>
 
-## ⌨️ Ensure Node.js and npm are Installed
+## ⌨️ Set up Node.js and npm
 
 Verify if 'Node.js' and 'npm' are installed by running these commands in your terminal.
 
