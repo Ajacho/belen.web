@@ -4,34 +4,30 @@
 <link rel="stylesheet" href="myhomestyle.css">
 
 <head>
-<title>Home</title>
+<title>belen.web</title>
 </head>
 
 <body>
-<div class="centered-content">
-<h1 id="greeting">
-<script>
-    const currHour = new Date().getHours();
-    const greetingElem = document.getElementById('greeting');
-    if (currHour < 12){
-        greetingElem.textContent = 'Hello, good morning!!';
-    } else {
-        greetingElem.textContent = 'Hello, good afternon!!';
-    }
-</script>
-</h1>
 
-<p> My name is Andrea Belen,<br> 
-    I'm a Computer Science junior at Western Oregon University,<br>
-    and I'm excited to share my very first webpage showcasing all my projects.
+<nav class="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand " asp-area="" href="https://www.linkedin.com/in/andrea-belen-jacho-betun-799446257/">Linkedln</a>
+    </div>
+</nav>
+
+<div class="centered-content">
+<div class="greeting" id="greetingCurrHour"></div>
+<h1>belen.web</h1>
+
+<p> Welcome to my portafolio...<br>
 </p>
 
-<h3><a href="mySomething" class="nav-link">***A***</a></h3>
+<h3><a href="myGallery" class="nav-link">Gallery</a></h3>
 
-<h3><a href="myHobbies" class="nav-link">HobBies</a></h3>
+<h3><a href="myHobbies" class="nav-link">Hobbies</a></h3>
 
-<h3><a href="myProjects" class="nav-link">ProJects</a></h3>
+<h3><a href="myProjects" class="nav-link">Projects</a></h3>
 </div>
-<footer>© Page by Andrea Belen Jacho</footer>
+<!-- <footer>© Page by Andrea Belen Jacho</footer> -->
 </body>
 </html>
