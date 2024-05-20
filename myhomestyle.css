@@ -1,8 +1,12 @@
 html{
-    background-image: url('pictures/salemSky.JPEG');
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('pictures/Yachat_at_night.jpeg');
+    /* background-size: auto; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
 
 .centered-content {
@@ -31,6 +35,7 @@ a:hover{
 a:link{
     color:hsl(0, 100%, 99%);
     border-bottom: 1px solid;
+
 }
 
 p{
@@ -45,4 +50,16 @@ footer{
     background-color: #0c0808bb;
     color: #fff;
     text-align: center;
+}
+
+.centerMenu{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.scrollContainer{
+    overflow-x: auto;
 }
