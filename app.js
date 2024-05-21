@@ -16,3 +16,19 @@ $(document).ready(function () {
 $(document).ready(function(){
     $(".centerMenu").window.onscroll
 })
+
+
+// Gallery grid four col img side by side
+function four(){
+    var elements = document.getElementsByClassName("column");
+    for (var i = 0; i < elements.length; i++){
+        elements[i].style.flex = "25%";
+    }
+}
+// Gallery grid six col img side by side
+function six(){
+    var elements = document.getElementsByClassName("column");
+    for (var i = 0; i < elements.length; i++){
+        elements[i].style.flex = "15%";
+    }
+}
