@@ -1,83 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<link rel="stylesheet" href="myhomestyle.css">
-
 <head>
-<title>belen.web</title>
+    <link rel="stylesheet" href="myhomestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <title>belen.web</title>
 </head>
 
 <body>
 
-<nav class="navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand " asp-area="" href="https://www.linkedin.com/in/andrea-belen-jacho-betun-799446257/">Linkedln</a>
-    </div>
-</nav>
-
-<!-- <div class="centered-content"> -->
-<!-- <div class="greeting" id="greetingCurrHour"></div> -->
-<div class="centerMenu">
-<h1>belen.web</h1>
-
-<p> Welcome to my portafolio...<br>
-</p>
-
-<h3><a href="#projectArea">Projects</a></h3>
-
-<h3><a href="#galleryArea" >Gallery</a></h3>
-
-<h3><a href="#aboutMeArea" >About me</a></h3>
-
-
-<div class="scrollContainer">
-<div class="projectContainer">
-    <h2 id="projectArea">Projects comming soon...<h2>
-</div>
-<div class="galleryContainer">
-    <h2 id="galleryArea">Intro.....<h2>
-        <button onclick="four()"> 4 columns</button>
-        <button onclick="six()"> 6 columns</button>
-
-        <div class="row">
-            <div class="column">
-                <img src="pictures/gallery/chemeketa_sunset.JPEG">
-                <img src="pictures/gallery/chemeketa_sunset_pink.JPEG">
-                <img src="pictures/gallery/cost_highway.JPEG">
-                <img src="pictures/gallery/lego_bonsai.JPEG">
-            </div>
-            <div class="column">
-                <img src="pictures/gallery/flight_window_sky.JPEG">
-                <img src="pictures/gallery/depoe_bay.JPEG">
-                <img src="pictures/gallery/florence_beach.JPEG">
-                <img src="pictures/gallery/portland_airport_sunset.JPEG">
-            </div>
-            <div class="column">
-                <img src="pictures/gallery/florence_sunset.JPEG">
-                <img src="pictures/gallery/ice_storm_branch.JPEG">
-                <img src="pictures/gallery/ice_storm_tree.JPEG">
-                <img src="pictures/gallery/rainbow_sky.JPEG">
-            </div>
-            <div class="column">
-                <img src="pictures/gallery/seal_rock_sunset.JPEG">
-                <img src="pictures/gallery/trilium_lake.JPEG">
-                <img src="pictures/gallery/waldport_hs_sunset.JPEG">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="icon-bar">
+                <a href="https://www.linkedin.com/in/andrea-belen-jacho-betun-799446257/"><i class="fa fa-linkedin"></i></a>
+                <a class="active-menu" href="#home">Home</a>
+                <a class="active-menu" href="#projectArea">Projects</a>
+                <a class="active-menu" href="#galleryArea">Gallery</a>
+                <a class="active-menu" href="#contactArea">Contact</a>
             </div>
         </div>
+    </nav>
 
-</div>
-<div class="aboutMeContainer">
-    <h2 id="aboutMeArea">About me comming soon...<h2>
-</div>
-</div>
+    <div id="home" class="wrapper-intro">
+        <div class="row justify-content-center">
+            <div class="col-md-6 ">
+                <img class="mePicture" src="pictures/me/me_and_mountains.JPEG">
+            </div>
+            <div class="col-md-6 ">
+                <div class="text-container-intro">
+                    <h3>Hola, Andrea Belen here :) </h3>
+                    <p>International Undergraduate CS Student <br> Welcome to my portfolio. </p>
+                    <h4>CV</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="wrapper">
+        <div class="projectContainer">
+            <h2 id="projectArea">Projects coming soon...</h2>
+        </div>
+    </div>
 
+    <div class="wrapper-gallery">
+        <h1 id="galleryArea">Welcome to my gallery</h1>
+        <p>        
+            Welcome to my photography collection captured with the remarkable iPhone 13 Pro. 
+            Each image is a snapshot of a moment frozen in time, showcasing the beauty I've
+             encountered on my journeys. With every trip I embark on, I make it a point to
+              pause and immerse myself in the breathtaking views that surround me.          
+        
+        </p>
+        <div class="row-gallery">
+            <div class="column">
+                <img src="pictures/gallery/chemeketa_sunset.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/cost_highway.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/lego_bonsai.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/ice_storm_branch.JPEG" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="pictures/gallery/flight_window_sky.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/depoe_bay.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/florence_beach.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/waldport_hs_sunset.JPEG" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="pictures/gallery/florence_sunset.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/ice_storm_tree.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/rainbow_sky.JPEG" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="pictures/gallery/chemeketa_sunset_pink.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/seal_rock_sunset.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/portland_airport_sunset.JPEG" style="width: 100%;">
+                <img src="pictures/gallery/trilium_lake.JPEG" style="width: 100%;">
+            </div>
+        </div>
+    </div>
 
+    <div class="wrapper">
+        <div class="aboutMeContainer">
+            <h2 id="aboutMeArea">About me coming soon...</h2>
+        </div>
+    </div>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
-
-</div>
-<!-- </div> -->
-<!-- <footer>© Page by Andrea Belen Jacho</footer> -->
 </body>
+
 </html>

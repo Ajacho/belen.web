@@ -3,44 +3,59 @@ html{
 }
 
 body{
-    background-image: url('pictures/Yachat_at_night.jpeg');
+    /* background-image: url('pictures/Yachat_at_night.jpeg'); */
+    background-color: #1d3a5e;
     /* background-size: auto; */
     /* background-position: center; */
     /* background-repeat: no-repeat; */
 }
 
-.centered-content {
+
+p, h3, h4, h1{
+    color:hsl(0, 100%, 99%);
+}
+
+p {
     text-align: center;
-    height: 200px;
-    width: 400px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+    font-size: 15px;
 }
 
-#greeting {
-    color:hsl(0, 100%, 99%);    
+/* Setting wrapper to full viewpoint */
+.wrapper{
+    height: 100vh;
 }
 
-a:hover{
-    border-bottom: 1px solid;
-    color: #0e0d0d !important;
-    text-shadow: 0px opx 6px rgba(255, 255, 255, 1);
-    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+
+.mePicture{
+    max-width: 30%;
+    border-radius: 50%;
+    
 }
 
-a:link{
-    color:hsl(0, 100%, 99%);
-    border-bottom: 1px solid;
-
+.text-container-intro{
+    text-align: center;
 }
 
-p{
-    color:hsl(0, 100%, 99%);
+.icon-bar{
+    overflow: hidden;
 }
+
+.icon-bar a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-bar a:hover{
+    color: rgba(255, 255, 255, 0.404);
+}
+
+.container-intro{
+    padding: 0 20px;
+}
+
 
 footer{
     position: absolute;
@@ -52,27 +67,22 @@ footer{
     text-align: center;
 }
 
-.centerMenu{
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-
+*{
+    box-sizing: border-box;
 }
 
-.scrollContainer{
-    overflow-x: auto;
-}
-
-
-.row{
+.row-gallery{
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
+    margin: 10px;
 }
 
 .column {
-    /* flex: 25%; */
+    -ms-flex: 25%;
+    flex: 25%;
     max-width: 25%;
     padding: 0 4px;
 }
@@ -80,10 +90,14 @@ footer{
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    width: 100%;
 }
 
-/* @media screen and (max-width: 800px){
+
+
+@media screen and (max-width: 800px){
     .column{
+        -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
@@ -91,7 +105,9 @@ footer{
 
 @media screen and (max-width: 600px){
     .column{
+        -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
-} */
+}
+
