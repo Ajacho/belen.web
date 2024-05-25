@@ -1,39 +1,24 @@
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    /* background-image: url('pictures/Yachat_at_night.jpeg'); */
+body {
     background-color: #1d3a5e;
-    /* background-size: auto; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-}
-
+ }
 
 p, h3, h4, h1{
     color:hsl(0, 100%, 99%);
 }
 
-p {
+/* p {
     text-align: center;
     font-size: 15px;
-}
+} */
 
 /* Setting wrapper to full viewpoint */
-.wrapper{
+/* .wrapper{
     height: 100vh;
-}
-
+} */
 
 .mePicture{
     max-width: 30%;
     border-radius: 50%;
-    
-}
-
-.text-container-intro{
-    text-align: center;
 }
 
 .icon-bar{
@@ -52,21 +37,10 @@ p {
     color: rgba(255, 255, 255, 0.404);
 }
 
-.container-intro{
+/* .container-intro{
     padding: 0 20px;
-}
-
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;;
-    background-color: #0c0808bb;
-    color: #fff;
-    text-align: center;
-}
-
+} */
+/* 
 *{
     box-sizing: border-box;
 }
@@ -93,8 +67,6 @@ footer{
     width: 100%;
 }
 
-
-
 @media screen and (max-width: 800px){
     .column{
         -ms-flex: 50%;
@@ -109,5 +81,5 @@ footer{
         flex: 100%;
         max-width: 100%;
     }
-}
+} */
 
