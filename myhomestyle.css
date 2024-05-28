@@ -16,9 +16,11 @@ p, h3, h4, h1{
     height: 100vh;
 } */
 
-.mePicture{
-    max-width: 30%;
-    border-radius: 50%;
+.img-responsive{
+    border-radius: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .icon-bar{
