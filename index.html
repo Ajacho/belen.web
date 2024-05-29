@@ -12,6 +12,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="myhomestyle.css">
 
@@ -21,32 +23,65 @@
 <body>
 
     <!------------------ Navigation bar ------------------>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="icon-bar">
-                <a href="https://www.linkedin.com/in/andrea-belen-jacho-betun-799446257/"><i class="fa fa-linkedin"></i></a>
-                <a class="active-menu" href="#home">Home</a>
-                <a class="active-menu" href="#projectArea">Projects</a>
-                <a class="active-menu" href="#galleryArea">Gallery</a>
-                <a class="active-menu" href="#contactArea">Contact</a>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">belen.web</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                                <span class="sr-only">(current)</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectArea">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galleryArea">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactArea">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/andrea-belen-jacho-betun-799446257/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+
 
     <!------------------ Intro slide ------------------>
-    <div class="container mt-5">
-        <div class="row align-items-center">
-            <div class="col-8">
-                <img src="pictures/me/me_and_mountains.JPEG" class="img-responsive" alt="me in the lake">
-            </div>
-            <div class="col-4">                
-                <h3>Hola, Andrea Belen here :) </h3>
-                <p>International Undergraduate CS Student <br> Welcome to my portfolio. </p>
-                <h4>CV</h4>
+    <main role="main" class="container">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-5 col-12 mb-3 mb-md-0 text-center text-md-left">
+                    <img src="pictures/me/me_and_mountains.JPEG" class="img-fluid img-circle"  alt="me in the lake">
+                </div>
+                <div class="col-md-7 col-12 align-self-center text-center text-md-left intro-text">               
+                    <h3>Hola, Andrea Belen here :) </h3>
+                    <p>International Undergraduate CS Student <br> 
+                        Welcome to my portfolio. </p>
+                    <button type="button" class="btn btn-outline-warning"><a class="cvBtn" href="Jacho_Andrea_CV.pdf" target="_blank">Donwload CV</a></button>                   
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 
+    <!------------------ end messsage------------------>
+    <footer class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <p class="text-center">Design by <a href="#">abj</p>
+          </div>
+        </div>
+      </footer>
 
     
     <!-- <div class="wrapper">

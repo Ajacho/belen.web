@@ -1,5 +1,6 @@
 body {
     background-color: #1d3a5e;
+    padding-top: 70px;
  }
 
 p, h3, h4, h1{
@@ -16,27 +17,38 @@ p, h3, h4, h1{
     height: 100vh;
 } */
 
-.img-responsive{
+.img-circle{
     border-radius: 100%;
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
-.icon-bar{
+.intro-text {
+    text-align: center;
+}
+
+.cvBtn {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.navbar{
     overflow: hidden;
 }
 
-.icon-bar a{
-    float: left;
-    text-align: center;
+.navbar a {
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
-.icon-bar a:hover{
-    color: rgba(255, 255, 255, 0.404);
+.navbar a:hover{
+    color: rgba(255, 255, 255, 0.404)!important;
+}
+
+.container-more-info {
+    text-align: center;
+    color: white;
+    
 }
 
 /* .container-intro{
