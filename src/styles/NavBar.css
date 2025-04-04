@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.navContainer {
+  background-color: #00408C;
+  overflow: hidden;
+}
